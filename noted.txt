@@ -1,0 +1,15 @@
+dotnet ef migrations add InitialCreate01
+dotnet ef database update
+
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0
+
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 6.0.0
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 6.0.0    
+dotnet clean
+dotnet new webapi -n ERP_system
+cd ERP_system
+dotnet run
+
+
