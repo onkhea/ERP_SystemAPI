@@ -1,25 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khea\\OneDrive\\Desktop\\Cshap\\ERP_system\\ERP_system.csproj": {}
+    "C:\\Users\\ROG\\Downloads\\Telegram Desktop\\Cshap\\ERP_system\\ERP_system.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khea\\OneDrive\\Desktop\\Cshap\\ERP_system\\ERP_system.csproj": {
+    "C:\\Users\\ROG\\Downloads\\Telegram Desktop\\Cshap\\ERP_system\\ERP_system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khea\\OneDrive\\Desktop\\Cshap\\ERP_system\\ERP_system.csproj",
+        "projectUniqueName": "C:\\Users\\ROG\\Downloads\\Telegram Desktop\\Cshap\\ERP_system\\ERP_system.csproj",
         "projectName": "ERP_system",
-        "projectPath": "C:\\Users\\khea\\OneDrive\\Desktop\\Cshap\\ERP_system\\ERP_system.csproj",
-        "packagesPath": "C:\\Users\\khea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khea\\OneDrive\\Desktop\\Cshap\\ERP_system\\obj\\",
+        "projectPath": "C:\\Users\\ROG\\Downloads\\Telegram Desktop\\Cshap\\ERP_system\\ERP_system.csproj",
+        "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ROG\\Downloads\\Telegram Desktop\\Cshap\\ERP_system\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khea\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ROG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.423\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5\\RuntimeIdentifierGraph.json"
         }
       }
     }
